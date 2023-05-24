@@ -19,7 +19,7 @@ body {
     font-size: 14;
     background: rgb(44, 44, 44);
     color: rgb(0, 29, 109);
-    
+
 }
 
 .spaceing {
@@ -32,7 +32,7 @@ body {
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
-    
+
     background: rgb(59, 59, 59);
     box-shadow: black;
     border-radius: 8px;
@@ -51,17 +51,17 @@ body {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-padding-left: 90px;
+    width: 100%;
 }
 
 .mainscroll img {
     height: auto;
-    width: 20000px;
+    width: 100%;
 
-    background-size: 100% 100%;
+    scroll-snap-align: left;
+    scroll-behavior: inherit;
 
-   
-    scroll-snap-align: center;
-    scroll-behavior: smooth;
+
 }
 
 .blocks_about {
@@ -92,30 +92,30 @@ body {
 }
 
 .blocks_EXP {
-
-
-
     min-width: 600px;
     margin-left: 000px;
     margin-top: 10%;
+    margin-bottom: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14;
     background: #30303059;
     color: rgb(255, 255, 255);
     text-align: center;
+
 }
 
 .asides {
 
-    padding-right: 20px;
+    padding-right: 2px;
     padding-top: 30px;
     margin-top: 50px;
     margin-right: 1%;
+    margin-bottom: 10%;
     float: left;
     font-size: 20px;
     background: rgb(27, 27, 27);
     color: rgb(255, 255, 255);
-    
+
 
 
 
@@ -134,7 +134,7 @@ header.Moved {
     height: 12%;
     margin-bottom: 10px;
     margin-right: 2%;
-    width:0.1%;
+    width: 0.1%;
     height: 9.7%;
     transition: 0.5s;
 }
@@ -150,15 +150,15 @@ header.Moved button {
     margin-bottom: 1%;
     margin-left: 0%;
     transition: 0.2s;
-    
+
 
 
 }
 
 header.Moved img {
-   float:left;
+    float: left;
     opacity: 75%;
-    
+
 
 }
 
@@ -308,6 +308,7 @@ footer {
     right: auto;
     text-align: center;
     font-size: 25px;
+    color: #fff;
 }
 
 footer img {
